@@ -35,13 +35,13 @@ mcp-proxy:
 
 ```shell
 # Show all installable versions
-asdf list-all mcp-proxy
+asdf list all mcp-proxy
 
 # Install specific version
 asdf install mcp-proxy latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global mcp-proxy latest
+asdf set -u mcp-proxy latest
 
 # Now mcp-proxy commands are available
 mcp-proxy --help
